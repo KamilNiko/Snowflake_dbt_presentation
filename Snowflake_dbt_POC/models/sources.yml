@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: my_new_source
+    database: SNOWFLAKE_DBT_POC
+    schema: SIMPLE_SNOWFLAKE_DBT
+    tables:
+      - name: extra_details

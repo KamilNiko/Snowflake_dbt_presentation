@@ -1,0 +1,9 @@
+Snowflake_dbt_POC:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: SYSADMIN
+      warehouse: WH_DBT_POC
+      database: SNOWFLAKE_DBT_POC
+      schema: SIMPLE_SNOWFLAKE_DBT
